@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MLC webpage</title>
+        <link rel ="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    </head>
+    
+<body>
+    <header>
+        <img src="removebg.png" alt="Logo" class="logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact Us</a>
+            <img src="icons8-hamburger-menu-50.png" class="right" alt="sidebar" onclick="openNav()">
+        </nav>
+        
+        <div class="sidepanel" id="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#" class="about-us-links">About us</a>
+            <a href="#" class="about-us-links">Specalizations</a>            
+            <a href="#" class="about-us-links">Events</a>            
+            <a href="#" class="about-us-links">Projects</a>            
+            <a href="#" class="about-us-links">Departments</a>            
+            <a href="#" class="about-us-links">Contact Us</a>            
+            <a href="#" class="about-us-links">FAQ</a>  
+            <h4>CONNECT</h4>
+            <div class="contact">
+                <a href="#"class="contact-img"><img src="insta.png"></a>
+                <a href="#"class="contact-img"><img src="linkdin.png"></a>
+                <a href="#"class="contact-img"><img src="youtube.png"></a>
+            </div>              
+        </div>
+    </header>
+    <main>
+       <!--------About-Us-------->
+       <div class="about-us">
+            <div class="about_1">
+                <div class="about-text">
+                    <p id="about-us">&nbsp;A&nbsp;b&nbsp;o&nbsp;u&nbsp;t&nbsp;&nbsp;&nbsp;U&nbsp;s</p>
+                    <p>What exactly is Machine Learning</p>
+                </div>
+            </div>
+            
+            <div class="about_2">
+                <div class="about-img">    
+                    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.9/build/spline-viewer.js"></script>
+                    <spline-viewer url="https://prod.spline.design/CVyDrSQX-llUtPAu/scene.splinecode"></spline-viewer>
+                </div>
+               <div class="about-us-small">
+                    <div class="about-text">
+                        <p>Default text</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!--------About-Us-------->
+        
+    </main>
+
+    <!--------PAGE 2-------->
+    
+    <div class="heading">
+        <h1>Specializations:</h1>
+        <h2>What our club is specialized in</h2>
+    </div>
+    <div class="Kushaj"> 
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.10/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/Ck6xrJ-786quAeEJ/scene.splinecode"></spline-viewer>
+    </div>
+
+    <section class="container">
+        <div class="card">
+            <h2>Web and App Development</h2>
+            <p>In the domain of Web and App Development, our expertise lies in merging state of the art technologies with inventive solutions. Our team excels in creating intuitive applications that fulfill to diverse requirements, emphasizing seamless user experiences. With a focus on every phase, from conceptualization to implementation, we're committed to delivering resilient and adaptable solutions.</p>
+        </div>
+        <div class="card">
+            <h2>Machine Learning</h2>
+            <p>Machine learning is a dynamic and rapidly evolving field within the broader realm of artificial intelligence. At its core, machine learning involves the development and implementation of algorithms that enable computers to learn from data, recognize patterns, and make decisions or predictions.The club fosters an environment where individuals can deepen their understanding of machine learning algorithms, explore innovative applications across diverse industries, and share insights into the evolving landscape of AI research.</p>
+        </div>
+        <div class="card">
+            <h2>UI/UX Designers</h2>
+            <p>Within MLC, our UI/UX designers blend aesthetics and functionality, serving as architects for captivating user experiences. Their precise focus on detail and a user-centric methodology elevate both the visual allure and usability of our projects. These experts craft designs that transcend mere aesthetics, ensuring a seamless harmony between visual appeal and practical functionality. Through their dedication, our projects not only delight users but also fulfill their needs efficiently, embodying the pinnacle of user-centric design philosophy within the realm of MLC's initiatives</p>
+        </div>
+        <div class="text">
+            What actually we can do
+        </div>
+    </section>
+
+    <!--------PAGE 3-------->
+
+
+    <div id="Top">
+        <h2 id="heading">O u r   E v e n t s :</h2>
+        <h3 id="para"> Events we organize during VTAPP and Vitopia and other webinars</h3>
+    </div>
+    <div class="gallery">
+        <div class="gallery-container">
+            <img class="gallery-item gallery-item-1" src="./Images/1.jpg" data-index="1">
+            <img class="gallery-item gallery-item-2" src="./Images/2.jpg" data-index="2">
+            <img class="gallery-item gallery-item-3" src="./Images/4.jpg" data-index="3">
+            <img class="gallery-item gallery-item-4" src="./Images/11.jpg" data-index="4">
+            <img class="gallery-item gallery-item-5" src="./Images/7.jpg" data-index="5">
+            <img class="gallery-item gallery-item-6" src="./Images/8.jpg" data-index="6">
+            <img class="gallery-item gallery-item-7" src="./Images/9.jpg" data-index="7">
+            <img class="gallery-item gallery-item-8" src="./Images/10.jpg" data-index="8">
+        </div >
+        <div class="gallery-controls"></div>
+    </div>
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>

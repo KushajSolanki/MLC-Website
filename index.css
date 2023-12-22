@@ -1,0 +1,822 @@
+* {
+    font-family: 'Krona One';
+    
+}
+
+.sidepanel {
+    display: grid;
+    padding-top: 2em;
+    height: 95%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 1s;
+}
+
+.contact {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    left: 50%;
+    padding-left: 2em;
+}
+
+.sidepanel img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: -2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+}
+
+.sidepanel h4 {
+    padding-left: 80px;
+    padding-top: 4em;
+    margin-top: 3em;
+}
+
+.sidepanel .about-us-links {
+    color: white;
+    font-size: medium;
+    padding: 2em 0em 0em 2em;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    padding: 0 0 0 0;
+    font-size: 36px;
+    margin-left: 0;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#about-us {
+    color: #CD40FF;
+}
+
+nav a {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 18px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.right {
+    width: 2em;
+    height: 2em;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+main {
+    padding-top: 1em;
+    height: 85%;
+}
+
+.logo {
+    width: 4em;
+    height: 4em;
+}
+
+html {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: auto;
+}
+
+header {
+    background-color: #111;
+    top: 0;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text p {
+    color: #b5b5b5;
+    text-indent: 1em;
+}
+
+.about-us {
+    margin-top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 90%;
+    height: 75%;
+    position: absolute;
+}
+
+.about_1 {
+    background-color: rgba(220, 220, 220, 0.05);
+    flex: 0 0 80%;
+    box-shadow: 0 4px 8px 0 rgb(18, 18, 18);
+    transition: 0.3s;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.about_1:hover {
+    box-shadow: 0 8px 40px 0 rgb(17, 15, 15);
+}
+
+.about_2 {
+    flex: 1;
+    border-radius: 10px;
+}
+
+.about-us-small {
+    background-color: rgba(220, 220, 220, 0.05);
+    margin-top: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    transition: 0.3s;
+    height: 45%;
+    padding: 8px;
+}
+
+.about-img {
+    margin-left: -200px;
+    margin-top: -120px;
+    width: 3px;
+    height: 40px;
+}
+
+.about-us-small:hover {
+    box-shadow: 0 8px 40px 0 rgb(17, 15, 15);
+}
+
+.heading h1{
+    color: #CD40FF;
+    font-family: Krona One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing:5px;
+    width: 481px;
+    height: 35px;
+    margin-top: 100px;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.heading h2{
+
+    width: 490px;
+    height: 31px;
+    margin-top: -20px;
+    margin-left: 60px;
+    font-family: Krona One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(132, 132, 132, 1);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    margin-top: -700px;
+}
+.card{
+    height: 400px;
+    width: 350px;
+    background: rgba(255, 254, 254, 0.04);
+    margin:10px;
+    border-radius:37px ;
+    box-shadow: 9px 7px 13px 0px rgba(0, 0, 0, 0.29);
+}
+.card:hover{
+    transform: scale(1.05);
+    border: 4px solid  #CD40FF;
+    transition: all 1s ease;
+}
+.card h2{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    color: rgba(170, 170, 170, 1);
+}
+.card p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 25px;
+    width: 310px;
+    height:240px;
+    padding-left: 25px;
+}
+.text{
+    width: 144px;
+    height: 125px;
+    top: 483px;
+    left: 1442px;
+    font-family: Krona One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-top: 170px;
+    padding-left: 30px;
+}
+
+.Kushaj
+{   margin-left: 0px;
+    margin-top: 60px;
+}
+
+#heading{
+    font-family: 'Krona One', sans-serif;
+    color: #CD40FF;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+#para{
+    font-family: 'Krona One', sans-serif;
+    color: gray;
+    margin-top: 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+#Top{
+    padding: 60px 0px 0px 110px;
+}
+.gallery{
+    margin-left: 50px;
+    width: 100%
+}
+
+.gallery-container{
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 0 0 130px;
+    max-width: 1000px;
+    position: relative;
+}
+
+.gallery-item{
+    height: 200px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 330px;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+}
+
+.gallery-item-1{
+    left: 15%;
+    opacity: .4;
+    transform: translateX(-50%);
+}
+
+.gallery-item-2, .gallery-item-4{
+    height: 250px;
+    opacity: 0.8;
+    width: 380px;
+    z-index: 1;
+}
+
+.gallery-item-2{
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.gallery-item-3{
+    box-shadow: -2px 5px 33px 6px darkorchid;
+    height: 300px;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 430px;
+    z-index: 2;
+}
+
+.gallery-item-4{
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.gallery-item-5{
+    left: 85%;
+    opacity:0.4;
+    transform: translateX(-50%);
+}
+
+.gallery-controls{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    height: 100px;
+}
+
+.gallery-controls button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 50px;
+    margin-left: -0px;
+    padding: 0 12px;
+    text-transform: capitalize;
+}
+
+.gallery-controls-button:focus{
+    outline: none;
+}
+
+.gallery-controls-previous{
+    position: relative;
+}
+
+.gallery-controls-previous::before{
+    border: solid violet;
+    border-width: 0 5px 5px 0;
+    content: '';
+    display: inline-block;
+    height: 5px;
+    left: -30px;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    transform: rotate(135deg) translateY(0%);
+    transition: left 0.15s ease-in-out;
+    width: 5px;
+}
+
+.gallery-controls-previous:hover::before{
+    left:-40px;
+}
+
+.gallery-controls-next{
+    position: relative;
+}
+
+.gallery-controls-next::before{
+    border: solid violet;
+    border-width: 0 5px 5px 0;
+    content: '';
+    display: inline-block;
+    height: 5px;
+    padding: 10px;
+    position: absolute;
+    right: -30px;
+    top: 45;
+    transform: rotate(-45deg) translateY(-50%);
+    transition: right 0.15s ease-in-out;
+    width: 5px;
+}
+
+.gallery-controls-next:hover::before{
+    right: -40px;
+}
+
+.gallery-nav{
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.gallery nav li{
+    background: #ccc;
+    border-radius: 50%;
+    height: 10px;
+    margin:0 16px;
+    width: 10px;
+}
+
+.gallery-nav li.gallery-item-selected{
+    background: #555;
+}
+
+
+@media screen and (max-width:575px){
+    .heading h1{
+        color: #CD40FF;
+        font-style: normal;
+        width: 248px;
+        height: 25px;
+        top: 89px;
+        left: 33px;
+        padding-top: 15px;
+        padding-left: 15px;
+        font-family: Krona One;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.17em;
+        text-align: left;}
+        .heading h2{
+        width: 402px;
+        height: 66px;
+        top: 120px;
+        left: 33px;
+        font-family: Krona One;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18.75px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(132, 132, 132, 1);
+        padding-top: 15px;
+        padding-left: 15px;
+        }
+        .container{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 0px;
+        flex-wrap: wrap;
+        }
+        .card{
+        height: 300px;
+        width: 420px;
+        background: rgba(255, 254, 254, 0.04);
+        margin:10px;
+        border-radius:37px ;
+        box-shadow: 9px 7px 13px 0px rgba(0, 0, 0, 0.29);
+        }
+        .card h2{
+        font-size: 15px;
+        text-align: center;
+        padding-top: 15px;
+        color: rgba(170, 170, 170, 1);
+        }
+        .card p{
+            font-size: 12px;
+            color: rgba(170, 170, 170, 1);
+            margin-top: 25px;
+            width: 400px;
+            height:300px;
+            padding-left: 25px;
+        }
+        .text{
+            display: none;
+        }
+}
+
+/*page1*/
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .contact {
+        justify-content: center;
+    }
+
+    .contact-img img {
+        height: 2.5em;
+        width: 2.5em;
+        margin: 0.001em;
+    }
+
+    .sidepanel .closebtn {
+        margin-left: 1em;
+        right: 0.5em;
+        padding: 0.1em 0.5em 0.1em 0.1em;
+    }
+
+    .sidepanel h4 {
+        font-size: normal;
+        padding-top: 2em;
+        padding-left: 6.5em;
+    }
+
+    .sidepanel {
+        padding-top: 1em;
+        height: 100%;
+    }
+
+    .about-us-small:hover,
+    .about_1:hover {
+        box-shadow: 0 4px 8px 0 rgb(18, 18, 18);
+        ;
+    }
+
+    .logo {
+        height: 3em;
+        width: 3em;
+        padding-top: 10px;
+    }
+
+    .right {
+        padding-top: 1em;
+        padding-right: 1.3em;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    #about-us {
+        font-size: x-small;
+    }
+
+    .about-text {
+        font-size: x-small;
+    }
+
+    body {
+        background-image: url(bg_mobile.png);
+    }
+
+    header {
+        width: 95%;
+        height: 5%;
+    }
+
+    .about-us {
+        display: flex;
+        width: 17.5em;
+        flex-direction: column;
+        height: 30em;
+    }
+
+    .about_1 {
+        padding-left: 0px;
+        width: 95%;
+    }
+
+    .about_2 {
+        padding-right: 1em;
+        padding-top: 1em;
+        height: 30%;
+        margin-left: -2em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-img {
+        padding-left: 1em;
+        padding-top: 1em;
+        width: 9em;
+        height: 9em;
+    }
+
+    .about-us-small {
+        width: 14em;
+        height: 6em;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .contact {
+        justify-content: center;
+    }
+
+    .contact-img img {
+        height: 2.5em;
+        width: 2.5em;
+        margin: 0.05em;
+    }
+
+    .sidepanel .closebtn {
+        margin-left: 1em;
+        right: 0.5em;
+        padding: 0.1em 0.5em 0.1em 0.1em;
+    }
+
+    .sidepanel h4 {
+        font-size: normal;
+        padding-top: 2em;
+        padding-left: 8.5em;
+    }
+
+    .sidepanel {
+        padding-top: 1em;
+        height: 100%;
+    }
+
+    .about-us-small:hover,
+    .about_1:hover {
+        box-shadow: 0 4px 8px 0 rgb(18, 18, 18);
+        ;
+    }
+
+    .logo {
+        height: 3em;
+        width: 3em;
+        padding-top: 10px;
+    }
+
+    .right {
+        margin-left: 2em;
+        height: 1.5em;
+        width: 1.5em;
+        padding-right: 0.7em;
+        padding-top: 14px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    #about-us {
+        font-size: x-small;
+    }
+
+    .about-text {
+        font-size: x-small;
+    }
+
+    body {
+        background-image: url(bg_mobile.png);
+    }
+
+    header {
+        width: 95%;
+        height: 5%;
+    }
+
+    .about-us {
+        display: flex;
+        width: 20em;
+        flex-direction: column;
+        height: 75%;
+    }
+
+    .about_1 {
+        padding-left: 0px;
+        width: 95%;
+    }
+
+    .about_2 {
+        padding-right: 1em;
+        padding-top: 1em;
+        height: 30%;
+        margin-left: -2em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-img {
+        padding-top: 1em;
+        width: 9em;
+        height: 9em;
+        padding-left: 1em;
+    }
+
+    .about-us-small {
+        width: 14em;
+        height: 6em;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 600px) {
+    .contact {
+        justify-content: center;
+    }
+
+    .contact-img img {
+        height: 2.5em;
+        width: 2.5em;
+        margin: 0.1em;
+    }
+
+    .sidepanel .closebtn {
+        margin-left: 1em;
+        right: 0.5em;
+        padding: 0.1em 0.5em 0.1em 0.1em;
+    }
+
+    .sidepanel h4 {
+        font-size: normal;
+        padding-top: 2em;
+        padding-left: 10em;
+    }
+
+    .sidepanel {
+        padding-top: 1em;
+        height: 100%;
+    }
+
+    .about-us-small:hover,
+    .about_1:hover {
+        box-shadow: 0 4px 8px 0 rgb(18, 18, 18);
+        ;
+    }
+
+    .logo {
+        height: 3em;
+        width: 3em;
+        padding-top: 10px;
+
+    }
+
+    .right {
+        padding-top: 1em;
+        padding-right: 1.8em;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    nav a {
+        padding-top: 1em;
+        font-size: x-small;
+    }
+
+    #about-us {
+        font-size: x-small;
+    }
+
+    .about-text {
+        font-size: x-small;
+    }
+
+    body {
+        background-image: url(bg_mobile.png);
+    }
+
+    header {
+        width: 98%;
+        height: 5%;
+    }
+
+    .about-us {
+        display: flex;
+        width: 23em;
+        flex-direction: column;
+        height: 75%;
+    }
+
+    .about_1 {
+        padding-left: 0px;
+        width: 95%;
+    }
+
+    .about_2 {
+        padding-right: 1em;
+        padding-top: 1em;
+        height: 30%;
+        margin-left: -2em;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-img {
+        padding-top: 1em;
+        width: 9em;
+        height: 9em;
+        padding-left: 1em;
+    }
+
+    .about-us-small {
+        width: 14em;
+        height: 6em;
+    }
+}
+
